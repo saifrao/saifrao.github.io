@@ -10970,3 +10970,22 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+.desktop-view {
+  display: block;
+}
+.mobile-view{
+  display: none;
+}
+
+@media (max-width: 600px){
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view{
+    display: block;
+  }
+  
+  
+}
