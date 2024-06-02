@@ -8269,7 +8269,8 @@ textarea.form-control-lg {
 }
 
 .img-profile {
-    max-width: 25rem;
+    max-width: 95%;
+    margin: auto;
     border: 5px solid rgb(189 93 56);
     border-radius: 10px !important;
 }
