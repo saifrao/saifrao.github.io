@@ -8269,10 +8269,10 @@ textarea.form-control-lg {
 }
 
 .img-profile {
-    max-width: 95%;
-    margin: auto;
+    max-width: calc(100% + 2rem);
+    margin: -2rem -1rem;
     border: 5px solid rgb(189 93 56);
-    border-radius: 10px !important;
+    border-radius: 0px 0px 10px 10px !important;
 }
 
 .rounded-pill {
