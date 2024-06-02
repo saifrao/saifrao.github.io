@@ -8268,6 +8268,12 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
+.img-profile {
+    max-width: 25rem;
+    border: 5px solid rgb(189 93 56);
+    border-radius: 10px !important;
+}
+
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
 }
@@ -10955,6 +10961,14 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+.resume-mobile-profile {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    margin-top: -50px;
 }
 
 @media (min-width: 768px) {
